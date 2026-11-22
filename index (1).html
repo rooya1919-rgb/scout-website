@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="الموقع التعريفي لفوج تازركة للكشافة التونسية. أنشطة كشفية، مخيمات، تطوع ومغامرات.">
+<meta name="theme-color" content="#123d2b">
+<title>فوج تازركة للكشافة التونسية | كن مستعداً</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap');
+:root{--green:#123d2b;--green2:#1d6242;--red:#d52b35;--gold:#e6bd62;--cream:#f7f6ef;--ink:#1c2b23;--muted:#65746a;--white:#fff;--shadow:0 18px 50px #102d1d18}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:'Cairo',Tahoma,sans-serif;color:var(--ink);background:#fff;line-height:1.8}a{color:inherit;text-decoration:none}.container{width:min(1160px,92%);margin:auto}
+header{position:sticky;top:0;z-index:20;background:#fffFf9;backdrop-filter:blur(14px);border-bottom:1px solid #e9eee9}
+.nav{height:78px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:12px;font-weight:900;color:var(--green);line-height:1.3}.brand-mark{width:48px;height:48px;border-radius:16px;background:var(--green);color:#fff;display:grid;place-items:center;font-size:25px;box-shadow:0 8px 18px #123d2b33}.brand small{display:block;font-size:11px;color:var(--muted);font-weight:600}.links{display:flex;align-items:center;gap:23px;font-size:14px;font-weight:700}.links a:hover{color:var(--red)}.nav-cta,.btn{display:inline-flex;align-items:center;justify-content:center;border:0;border-radius:12px;padding:11px 19px;background:var(--red);color:#fff;font-family:inherit;font-weight:800;cursor:pointer;transition:.2s}.nav-cta:hover,.btn:hover{transform:translateY(-2px);filter:brightness(.95)}.menu{display:none;background:none;border:0;font-size:27px;color:var(--green)}
+.hero{background:linear-gradient(110deg,#0b2d20f2 0%,#123d2bd9 48%,#123d2b66 100%),url('https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?auto=format&fit=crop&w=2000&q=85') center/cover;min-height:640px;color:#fff;display:flex;align-items:center;position:relative;overflow:hidden}.hero:after{content:"";position:absolute;inset:auto 0 0;height:100px;background:linear-gradient(transparent,#0b2d20aa)}.hero-content{position:relative;z-index:1;max-width:700px;padding:95px 0}.eyebrow{display:inline-flex;align-items:center;gap:9px;color:var(--gold);font-weight:800;font-size:14px;letter-spacing:.3px}.eyebrow:before{content:"";width:28px;height:2px;background:var(--gold)}h1{font-size:clamp(38px,6vw,70px);line-height:1.25;margin:18px 0 16px;font-weight:900}.hero p{font-size:18px;color:#e5eee8;max-width:600px;margin:0 0 30px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap}.btn.secondary{background:#ffffff1c;border:1px solid #ffffff88}.hero-note{margin-top:38px;display:flex;gap:25px;flex-wrap:wrap;color:#e8f0e9;font-size:13px}.hero-note span{display:flex;align-items:center;gap:8px}
+section{padding:88px 0}.section-head{text-align:center;max-width:690px;margin:0 auto 42px}.kicker{color:var(--red);font-size:13px;font-weight:900}.section-head h2{font-size:clamp(27px,4vw,40px);line-height:1.3;color:var(--green);margin:8px 0 12px}.section-head p{color:var(--muted);margin:0}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}.about-photo{min-height:420px;border-radius:28px;background:url('kolna.jpg') center/cover;position:relative;box-shadow:var(--shadow)}.photo-tag{position:absolute;bottom:22px;right:22px;background:#fff;padding:14px 18px;border-radius:15px;color:var(--green);font-weight:900;box-shadow:var(--shadow)}.about-copy h2{font-size:36px;line-height:1.35;color:var(--green);margin:8px 0 16px}.about-copy p{color:var(--muted)}.values{display:grid;grid-template-columns:1fr 1fr;gap:13px;margin-top:25px}.value{display:flex;align-items:center;gap:11px;font-weight:800;color:var(--green)}.value b{width:36px;height:36px;display:grid;place-items:center;background:#eaf2eb;border-radius:11px;color:var(--green)}
+.units{background:var(--cream)}.cards{display:grid;grid-template-columns:repeat(5,1fr);gap:16px}.unit{background:#fff;border-radius:20px;padding:25px 17px;text-align:center;box-shadow:0 8px 30px #183b2510;transition:.25s;border:1px solid #edf0e9}.unit:hover{transform:translateY(-7px);box-shadow:var(--shadow)}.unit-icon{width:62px;height:62px;margin:0 auto 15px;border-radius:19px;background:#eaf2eb;display:grid;place-items:center;font-size:29px}.unit h3{color:var(--green);margin:0 0 7px;font-size:18px}.unit p{font-size:12px;color:var(--muted);margin:0}
+.activities-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.activity{border:1px solid #edf0eb;border-radius:20px;overflow:hidden;background:#fff;box-shadow:0 8px 30px #183b250a}.activity img{width:100%;height:210px;object-fit:cover;display:block}.activity-body{padding:20px}.activity-body small{color:var(--red);font-weight:900}.activity-body h3{margin:6px 0;color:var(--green);font-size:19px}.activity-body p{margin:0;color:var(--muted);font-size:14px}
+.quote{background:var(--green);color:#fff;text-align:center;padding:75px 20px}.quote blockquote{font-size:clamp(24px,4vw,38px);font-weight:900;max-width:850px;margin:0 auto 12px;line-height:1.6}.quote p{color:#cbded1;margin:0}
+.gallery{display:grid;grid-template-columns:1.2fr 1fr 1fr;grid-template-rows:210px 210px;gap:14px}.gallery img{width:100%;height:100%;object-fit:cover;border-radius:18px}.gallery img:first-child{grid-row:span 2}
+.join{background:linear-gradient(110deg,#123d2b,#1d6242);color:#fff}.join-inner{display:flex;justify-content:space-between;align-items:center;gap:30px}.join h2{font-size:34px;margin:0 0 8px}.join p{color:#d4e5d9;margin:0}.join .btn{background:var(--gold);color:#1c3325;white-space:nowrap}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:45px}.contact-info h2{font-size:32px;color:var(--green);margin:5px 0 12px}.contact-info p{color:var(--muted)}.contact-item{display:flex;gap:13px;align-items:center;margin-top:18px;font-weight:700}.contact-item b{width:42px;height:42px;background:#edf4ed;border-radius:13px;display:grid;place-items:center}.contact-form{background:var(--cream);padding:28px;border-radius:22px}.field{margin-bottom:14px}.field label{display:block;font-size:13px;font-weight:800;margin-bottom:6px}.field input,.field textarea{width:100%;border:1px solid #dfe6dd;border-radius:11px;padding:12px 14px;font:inherit;background:#fff;outline:none}.field input:focus,.field textarea:focus{border-color:var(--green2)}.field textarea{min-height:110px;resize:vertical}.contact-form button{width:100%}
+footer{background:#0b2d20;color:#fff;padding:35px 0}.footer-row{display:flex;justify-content:space-between;align-items:center;gap:20px}.footer-row p{color:#c2d2c7;font-size:13px;margin:5px 0 0}.footer-links{display:flex;gap:18px;font-size:13px;color:#dce8df}
+@media(max-width:900px){.links{gap:13px;font-size:12px}.cards{grid-template-columns:repeat(3,1fr)}.about-grid{gap:30px}.activities-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:680px){.nav{height:68px}.menu{display:block}.links{display:none;position:absolute;top:68px;right:0;left:0;background:#fff;padding:18px 5%;box-shadow:var(--shadow);flex-direction:column;align-items:stretch}.links.open{display:flex}.links a{padding:8px 0}.nav-cta{display:none}.hero{min-height:590px}.hero-content{padding:75px 0}.hero p{font-size:16px}.hero-note{gap:12px}.about-grid,.contact-grid{grid-template-columns:1fr}.about-photo{min-height:300px;order:2}.cards{grid-template-columns:1fr 1fr}.activities-grid{grid-template-columns:1fr}.gallery{grid-template-columns:1fr 1fr;grid-template-rows:170px 170px 170px}.gallery img:first-child{grid-row:auto;grid-column:span 2}.join-inner,.footer-row{flex-direction:column;align-items:flex-start}.join h2{font-size:27px}section{padding:65px 0}.footer-links{flex-wrap:wrap}}
+.a{
+  color:red;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 2px 2px 4px gray;
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a class="brand" href="#home"><span class="brand-mark"><img src="scout.jpg" height="50"></span><span>فوج تازركة<small>الكشافة التونسية</small></span></a>
+    <button class="menu" aria-label="فتح القائمة" onclick="document.querySelector('.links').classList.toggle('open')">☰</button>
+    <nav class="links">
+      <a href="#home">الرئيسية</a><a href="#about">من نحن</a><a href="#units">الوحدات</a><a href="#activities">الأنشطة</a><a href="#gallery">معرض الصور</a><a href="#contact">اتصل بنا</a>
+    </nav>
+    <a class="nav-cta" href="#contact">انضم إلينا ←</a>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="home">
+ <div class="a1"><div class="hero-content">
+   <span class="eyebrow">الكشافة التونسية · تازركة</span>
+   <h1>نكتشف، نتعلّم،<br><span style="color:var(--gold)">ونصنع الأثر.</span></h1>
+   <p>مرحباً بكم في الموقع التعريفي لفوج تازركة للكشافة التونسية. مساحة تجمعنا حول روح المغامرة، خدمة المجتمع، والصداقة.</p>
+   <div class="hero-actions"><a class="btn" href="#about">اكتشف فوجنا</a><a class="btn secondary" href="#activities">اكتشف أنشطتنا</a></div>
+   <div class="hero-note"><span>⚜ روح القيادة</span><span>♧ حب الطبيعة</span><span>♡ خدمة المجتمع</span></div>
+ </div></div>
+ </section> 
+ <section id="about">
+ <div class="container about-grid">
+  <div class="about-photo"><div class="photo-tag">كن مستعداً دائماً ⚜</div></div>
+  <div class="about-copy"><span class="kicker">قصتنا وهويتنا</span><h2>الكشفية… تربية للحياة</h2>
+   <p>نحن فوج تازركة للكشافة التونسية. نؤمن بأن التجربة الكشفية تساعد الناشئة والشباب على اكتساب المهارات، وتحمل المسؤولية، والعمل بروح الفريق، والمساهمة الإيجابية في المجتمع.</p>
+   <p>من خلال الأنشطة والمخيمات والمبادرات التطوعية، نفتح المجال أمام كل فرد ليكتشف قدراته ويطوّرها في بيئة يسودها الاحترام والتعاون.وديما<div class="a">"فوج تازركة عائلة كبيرة"</div></p>
+   <div class="values"><div class="value"><b>⚑</b> المواطنة</div><div class="value"><b>♧</b> حب الطبيعة</div><div class="value"><b>◎</b> روح الفريق</div><div class="value"><b>♡</b> التطوع والعطاء</div></div>
+  
+  </div>
+ </div>
+</section> 
+    <section class="units" id="units">
+ <div class="container"><div class="section-head"><span class="kicker">عائلتنا الكشفية</span><h2>وحداتنا الكشفية</h2><p>مراحل كشفية مختلفة، يجمعها هدف واحد: تنمية الفرد وخدمة المجتمع.</p></div>
+  <div class="cards">
+   <article class="unit"><div class="unit-icon"><img src="achbel.jpg" width="50" height="50"></div><a href="https://www.instagram.com/achbal_tazarka?evlk=MTV5Z3o3dG9kcmc4bA=="><h3>الأشبال</h3><p>اللعب والتعلّم واكتشاف العالم بروح الفريق.</p></article></a>
+   <article class="unit"><div class="unit-icon"><img src="zhra.jpg" width="50" height="50" ><a href="https://www.instagram.com/fleuriste_scout_tazarka?bqrl=MWIxaWlxMnA5Y3VyMg=="></div><h3>الزهرات</h3><p>تنمية المواهب والثقة بالنفس وروح التعاون.</p></article></a>
+   <article class="unit"><div class="unit-icon"><img src="kchf.jpeg" width="50" height="50" ></div><a href="https://www.instagram.com/fer9et_bilel_ben_rebeh?gwpx=a2VhcGVzbW9oMW9h"><h3>الكشافة</h3><p>مهارات كشفية ومغامرات وتحديات مفيدة.</p></article></a>
+   <article class="unit"><div class="unit-icon"><img src="mrchdette.jpg" height="50" width="50"><a href="https://www.instagram.com/elissa_morchidet_tazarka?dmpr=MWR5aWxtZzVxd20xZg=="></div><h3>المرشدات</h3><p>المهارات، المغامرة، القيادة، الاستكشاف، التحدّي، الإبداع، وروح الفريق.</p></article></a><br>
+   <article class="unit"><div class="unit-icon"><img src="jawela.jpg" width="50" height="50"></div><a href="https://www.instagram.com/routiers_tazarka?knvt=cWxnc3hsNm1iYXQ0"><h3>الجوالة</h3><p>الخدمة العامة والمسؤولية وروح المبادرة.</p></article></a>
+   <article class="unit"><div class="unit-icon"><img src="delile.jpg" width="50" height="50" ><a href="https://www.instagram.com/delilet_tazarka?dmpr=MXM5cjlhdmg2MnF2NQ=="></div><h3>الدليلات</h3><p>الاستقلالية، الثقة بالنفس، الإبداع، المسؤولية، التعاون، القيادة، المبادرة، وتنمية المهارات.</p></article></a>
+  </div>
+ </div>
+</section>
+    <section id="activities">
+ <div class="container"><div class="section-head"><span class="kicker">نتعلّم بالممارسة</span><h2>حياتنا وأنشطتنا</h2><p>مساحات للتعلّم والمغامرة وخدمة الآخرين. أضف هنا أخبار وأنشطة الفوج الفعلية.</p></div>
+  <div class="activities-grid">
+   <article class="activity"><img src="moukhymftabia.jpg" alt="مخيم في الطبيعة"><div class="activity-body"><small>المخيمات والرحلات</small><h3>نتعلّم في أحضان الطبيعة</h3><p>التخييم، الاعتماد على النفس، واحترام البيئة.</p></div></article>
+   <article class="activity"><img src="amljeme3i.jpg" alt="عمل جماعي" onerror="this.src='https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=900&q=80'"><div class="activity-body"><small>العمل الجماعي</small><h3>قوة الفريق</h3><p>نتعاون ونتشارك الخبرات لتحقيق أهداف مشتركة.</p></div></article>
+   <article class="activity"><img src="moubedra.jpg"مبادرة تطوعية"><div class="activity-body"><small>خدمة المجتمع</small><h3>يداً بيد من أجل الأفضل</h3><p>مبادرات تطوعية ومساهمات إيجابية في محيطنا.</p></div></article>
+  </div>
+ </div>
+</section>
+<div class="quote"><blockquote>«الكشاف يعدّ نفسه ليكون نافعاً، ويترك المكان أفضل مما وجده.»</blockquote><p>روح الكشفية — تعلّم، خدمة، التزام</p></div>
+<section id="gallery">
+ <div class="container"><div class="section-head"><span class="kicker">لحظات لا تُنسى</span><h2>من عالم المغامرة</h2></div>
+  <div class="gallery">
+   <img src="khyemfmkhym.jpg" alt="خيام في المخيم">
+   <img src="nachatt.jpg" alt="مجموعة في نشاط">
+   <img src="khymkh.jpg" alt="تخييم في الطبيعة">
+   <img src="moughamra.jpg" alt="طبيعة ومغامرة">
+   <img src="rhlatab.jpg" alt="رحلة في الطبيعة">
+  </div>
+ </div>
+</section>
+ <section class="join" id="join"><div class="container join-inner"><div><h2>هل ترغب في خوض التجربة الكشفية؟</h2><p>تواصل معنا للاستفسار عن الأنشطة وإمكانية الانضمام إلى الفوج.</p></div><a class="btn" href="#contact">تواصل معنا</a></div></section>
+ <section id="contact">
+ <div class="container contact-grid">
+  <div class="contact-info"><span class="kicker">نحن هنا للتواصل</span><h2>يسعدنا أن نسمع منك</h2><p>للاستفسار عن الفوج أو الأنشطة أو الانخراط، يمكنك التواصل معنا. أضف بيانات الاتصال الرسمية قبل نشر الموقع.</p>
+   <div class="contact-item"><b>📍</b><span>سيدي بلحسن تازركة، ولاية نابل، تونس</span></div>
+   <div class="contact-item"><b>✉</b><span>بريدنا الالكتروني :Scouttazarka@gmail.com</span></div>
+   <div class="contact-item"><b>☎</b><span>الهاتف: 25573415</span></div>
+  </div>
+  <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+   <div class="field"><label for="name">الاسم الكامل</label><input id="name" required placeholder="اكتب اسمك"></div>
+   <div class="field"><label for="email">البريد الإلكتروني</label><input id="email" type="email" required placeholder="name@example.com"></div>
+      <div class="field"><label for="message">الفئة الكشفية</label><textarea id="message" required placeholder="إلى أيّ فئة كشفية تنتمي؟"></textarea></div>
+   <div class="field"><label for="message">رسالتك</label><textarea id="message" required placeholder="كيف يمكننا مساعدتك؟"></textarea></div>
+   <button class="btn" type="submit">إرسال الرسالة ←</button>
+  </form>
+ </div>
+</section>
+</main>
+<footer><div class="container footer-row"><div class="brand" style="color:white"><span class="brand-mark" style="background:#ffffff20"><img src="scout.jpg" width="50px" height="50"></span><span>فوج تازركة<small style="color:#c2d2c7">الكشافة التونسية</small></span></div><div><strong>كن مستعداً</strong><p>© <span id="year"></span> فوج تازركة للكشافة التونسية. جميع الحقوق محفوظة.</p></div><div class="footer-links"><a href="#home">الرئيسية</a><a href="#about">من نحن</a><a href="#contact">اتصل بنا</a></div></div></footer>
+<script>
+document.getElementById('year').textContent=new Date().getFullYear();
+document.querySelectorAll('.links a').forEach(a=>a.addEventListener('click',()=>document.querySelector('.links').classList.remove('open')));
+</script>
+</body></html>
